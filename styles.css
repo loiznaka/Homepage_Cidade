@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Mukta';
+    src: url('fonts/Mukta-Regular.ttf');
+}
+
+body {
+    width: auto;
+    margin: 0;
+    background: #D38037;
+    color: white;
+    text-align: center;
+    text-shadow: 0px 0px 1px black;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Mukta', sans-serif;
+}
+
+.main-top {
+    height: 200px;
+    background-image: url('images/banner.jpg');
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-top h1 {
+    background: #D38037;
+    margin: 50px auto 0 auto;
+    padding: 0px 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.main-top h3 {
+    margin: 10px auto 0 auto;
+    padding: 0;
+    border-bottom: 4px solid white;
+    text-shadow: 0px 0px 5px black;
+}
+
+.main-middle {
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.local {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+}
+
+.local-img {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;  
+}
+
+.local h4{
+    margin: 5px 0;
+}
+
+.local p {
+    text-align: justify;
+}
+
+#santuario {
+    background-image: url('images/santuario_bom_jesus.jpeg');
+}
+
+#se-braga {
+    background-image: url('images/se_de_braga.jpg');   
+}
+
+#palacio {
+    background-image: url('images/palacio_do_raio.jpg');
+}
+
+#geres {
+    background-image: url('images/geres.jpg');
+}
